@@ -11,7 +11,7 @@ public class PortoMathTrainML {
 
         // build trainingset
         System.out.println("Training System....");
-        ArrayList<Student> trainingSet = utility.readStudentfile("porto_math_train.csv");
+        ArrayList<Student> trainingSet = utility.readStudentfile("t1/Outputfiles/porto_math_train.csv");
         ArrayList<Variable> variableSets = Student.getAllVar();
 
         Tree tree = new Tree();
@@ -25,7 +25,7 @@ public class PortoMathTrainML {
         System.out.println("============================");
         System.out.println();
         System.out.println("\tTesting System (testSet)....");
-        ArrayList<Student> testSet = utility.readStudentfile("porto_math_test.csv");
+        ArrayList<Student> testSet = utility.readStudentfile("t1/Outputfiles/porto_math_test.csv");
         utility.testTree2(testSet, decisionTree);
     }
 }

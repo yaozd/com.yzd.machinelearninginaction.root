@@ -9,7 +9,7 @@ public class HorseColicML{
 		
 		// build trainingset
 		System.out.println("Training System....");
-		ArrayList<Horse> trainingSet = utility.readHorseColicfile("horseTrain.txt");
+		ArrayList<Horse> trainingSet = utility.readHorseColicfile("t1/Outputfiles/horseTrain.txt");
 		ArrayList<Variable> variableSets = Horse.getAllVar();
 		Tree tree = new Tree();
 		
@@ -22,7 +22,7 @@ public class HorseColicML{
 		
 		System.out.println();
 		System.out.println("\tTesting System (testSet)....");
-		ArrayList<Horse> testSet = utility.readHorseColicfile("horseTest.txt");
+		ArrayList<Horse> testSet = utility.readHorseColicfile("t1/Outputfiles/horseTest.txt");
 		utility.testTree(testSet, decisionTree);
 		
 

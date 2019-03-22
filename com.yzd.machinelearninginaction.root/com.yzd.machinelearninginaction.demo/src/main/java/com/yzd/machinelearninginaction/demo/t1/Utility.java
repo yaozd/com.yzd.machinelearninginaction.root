@@ -12,7 +12,8 @@ public class Utility {
 		ArrayList<Horse> hcList = new ArrayList<Horse>();
 		try{
 
-			BufferedReader reader = new BufferedReader(new FileReader("E:/machinelearninginaction/Outputfiles/" + fileName));
+			//BufferedReader reader = new BufferedReader(new FileReader("E:/machinelearninginaction/Outputfiles/" + fileName));
+			BufferedReader reader =  getBufferedReader(fileName);
 			String output = reader.readLine();
 			
 			String name;
@@ -112,7 +113,8 @@ public class Utility {
 
 		ArrayList<Student> studentList = new ArrayList<Student>();
 		try{
-			BufferedReader reader = new BufferedReader(new FileReader("E:/machinelearninginaction/Outputfiles/" + fileName));
+			//BufferedReader reader = new BufferedReader(new FileReader("E:/machinelearninginaction/Outputfiles/" + fileName));
+			BufferedReader reader = getBufferedReader(fileName);
 			String output = reader.readLine();
 			
 			while ((output = reader.readLine()) != null){
@@ -469,6 +471,9 @@ public class Utility {
 		else
 			return testSample2(child, decisionTree.getChildren().get(1));
 	}
-
+	private BufferedReader getBufferedReader(String file){
+		InputStream in = this.getClass().getClassLoader().getResourceAsStream(file);
+		return new BufferedReader(new InputStreamReader(in));
+	}
 }
 
