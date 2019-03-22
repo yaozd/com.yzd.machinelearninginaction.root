@@ -26,3 +26,5 @@
 - [机器学习实战之决策树](https://www.cnblogs.com/zy230530/p/6813250.html)
 - [机器学习之决策树](https://www.cnblogs.com/duanxingxing/p/6924899.html)
 - [对信息增益（IG，Information Gain）的理解和计算](https://www.cnblogs.com/ustcxcl/articles/3375640.html)
+- [大白话给你说清楚什么是过拟合、欠拟合以及对应措施](https://blog.csdn.net/qq_18254385/article/details/78428887)-byArvin推荐：简单易懂
+- [决策树与随机森林](https://www.cnblogs.com/fionacai/p/5894142.html)
