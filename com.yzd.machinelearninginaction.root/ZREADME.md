@@ -1,8 +1,10 @@
 > 示例目录
 - t1-决策树
 - t2-逻辑回归
-- t1-决策树
-- t1-决策树
+- t3-Jackcard相似度和余弦相似度(向量空间模型)
+- t3ExtJackcardSim-Jackcard相似度
+- t4-Softmax-Regression-线性多分类器
+- t5-SVDPlusPlus:SVD++分解-协同过滤
 
 > 数学基础
 - [数学符号](https://baike.baidu.com/item/数学符号/685756?fr=aladdin)
