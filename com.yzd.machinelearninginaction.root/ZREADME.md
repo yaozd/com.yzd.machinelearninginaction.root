@@ -6,7 +6,8 @@
 - t4-Softmax-Regression-线性多分类器
 - t5-SVDPlusPlus:SVD++分解-协同过滤
 - t6-聚类算法-k-means(无监督学习)
-- t7-聚类算法-KNN(有监督学习)
+- t7-聚类算法-KNN(有监督学习)-版本一
+- t8-聚类算法-KNN(有监督学习)-版本二
 
 > 数学基础
 - [数学符号](https://baike.baidu.com/item/数学符号/685756?fr=aladdin)
